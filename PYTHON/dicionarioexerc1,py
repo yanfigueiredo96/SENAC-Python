@@ -1,0 +1,11 @@
+dict = {}
+
+nome= input("Nome: ")
+idade= input("Idade: ")
+cidade_natal= input("Cidade natal: ")
+profissão= input("Profissão: ")
+
+dict={"nome":nome, "idade":idade, "cidade natal": cidade_natal, "profissão": profissão}
+
+print(dict["nome"])
+print(dict["idade"])

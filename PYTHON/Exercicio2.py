@@ -1,0 +1,6 @@
+nota1 = float(input('Digite sua nota:'))
+peso1 = float(input('Digite o peso da nota:'))
+nota2 = float(input('Digite sua nota:'))
+peso2 = float(input('Digite o peso da nota:'))
+media= (nota1 * peso1 + nota2 *peso2) / (peso1 + peso2)
+print ("A média entre as notas são:", media)
